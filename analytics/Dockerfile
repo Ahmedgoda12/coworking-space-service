@@ -1,5 +1,5 @@
 # Use official slim Python 3.10 image matching our local environment
-FROM public.ecr.aws/docker/library/python:3.10-slim
+FROM python:3.10-slim
 
 # Set working directory inside the container
 WORKDIR /app
