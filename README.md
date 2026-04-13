@@ -34,3 +34,5 @@ t3.medium (2 vCPU, 4 GB RAM) is the best fit — the app is I/O-bound rather tha
 
 ## Cost Optimisation
 Use Spot Instances for the EKS node group (typically 60-70% cheaper than On-Demand) and configure the Cluster Autoscaler to scale nodes to zero outside business hours. Right-sizing the PostgreSQL pod resource requests also reduces the minimum node size required.
+
+<!-- trigger build -->
